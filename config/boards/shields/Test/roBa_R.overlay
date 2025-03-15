@@ -1,7 +1,7 @@
 #include "roBa.dtsi"
 
 &default_transform {
-    col-offset = 6; // 修正箇所
+    col-offset = 6;
 };
 
 &kscan0 {
@@ -53,27 +53,27 @@
     trackball: trackball@0 {
         status = "okay";
         compatible = "pixart,pmw3610";
-        reg = ;
-        spi-max-frequency = ;
+        reg = 0; // 例として0を設定
+        spi-max-frequency = 2000000; // 例として2000000を設定
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        automouse-layer = ;
-        scroll-layers = ;
+        automouse-layer = 4; // 例として4を設定
+        scroll-layers = 5; // 例として5を設定
 
         arrows {
-            layers = ;
+            layers = 3; // 例として3を設定
             bindings = <&kp RIGHT_ARROW>, <&kp LEFT_ARROW>, <&kp UP_ARROW>, <&kp DOWN_ARROW>;
 
-            tick = ;
-            wait-ms = ;
-            tap-ms = ;
+            tick = 10; // 例として10を設定
+            wait-ms = 5; // 例として5を設定
+            tap-ms = 5; // 例として5を設定
         };
 
         volume {
-            layers = ;
+            layers = 2; // 例として2を設定
             bindings = <&none>, <&none>, <&kp C_VOLUME_UP>, <&kp C_VOLUME_DOWN>;
 
-            wait-ms = ;
-            tap-ms = ;
+            wait-ms = 5; // 例として5を設定
+            tap-ms = 5; // 例として5を設定
         };
     };
 };
