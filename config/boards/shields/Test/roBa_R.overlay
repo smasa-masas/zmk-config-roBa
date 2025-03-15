@@ -60,20 +60,28 @@
         scroll-layers = 5; // 例として5を設定
 
         arrows {
-            layers = 3; // 例として3を設定
-            bindings = <&kp RIGHT_ARROW>, <&kp LEFT_ARROW>, <&kp UP_ARROW>, <&kp DOWN_ARROW>;
+            layers = 3;
+            bindings =
+                <&kp RIGHT_ARROW>,
+                <&kp LEFT_ARROW>,
+                <&kp UP_ARROW>,
+                <&kp DOWN_ARROW>;
 
-            tick = 10; // 例として10を設定
-            wait-ms = 5; // 例として5を設定
-            tap-ms = 5; // 例として5を設定
+            tick = 10;
+            wait-ms = 5;
+            tap-ms = 5;
         };
 
         volume {
-            layers = 2; // 例として2を設定
-            bindings = <&none>, <&none>, <&kp C_VOLUME_UP>, <&kp C_VOLUME_DOWN>;
+            layers = 2;
+            bindings =
+                <&none>,
+                <&none>,
+                <&kp C_VOLUME_UP>,
+                <&kp C_VOLUME_DOWN>;
 
-            wait-ms = 5; // 例として5を設定
-            tap-ms = 5; // 例として5を設定
+            wait-ms = 5;
+            tap-ms = 5;
         };
     };
 };
