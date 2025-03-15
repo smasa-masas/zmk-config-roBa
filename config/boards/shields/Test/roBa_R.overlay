@@ -1,7 +1,7 @@
 #include "roBa.dtsi"
 
 &default_transform {
-    col-offset = ;
+    col-offset = 6; // 修正箇所
 };
 
 &kscan0 {
@@ -77,4 +77,3 @@
         };
     };
 };
-
