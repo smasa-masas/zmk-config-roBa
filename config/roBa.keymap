@@ -78,7 +78,7 @@
             bindings = <
 &kp Q             &kp W           &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &lt 5 O  &kp P
 &kp A             &kp S           &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X           &kp C         &kp V                        &kp B        &lt 6 TAB                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT Z  &kp X           &kp C         &kp V                        &kp B        &lt 6 TAB                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp LS(INTERNATIONAL_1)
 &kp LCTRL         &lt 1 LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
